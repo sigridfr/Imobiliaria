@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ifma.dcomp.lbd.imobiliaria.model.Cliente" project="projeto-de-imobiliaria" 
+    file="/projeto-de-imobiliaria/src/main/java/ifma/dcomp/lbd/imobiliaria/model/Cliente.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="725" y="426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ifma.dcomp.lbd.imobiliaria.model.Imovel" project="projeto-de-imobiliaria" 
+    file="/projeto-de-imobiliaria/src/main/java/ifma/dcomp/lbd/imobiliaria/model/Imovel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="419" width="199" x="-89" y="-94"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ifma.dcomp.lbd.imobiliaria.model.Aluguel" project="projeto-de-imobiliaria" 
+    file="/projeto-de-imobiliaria/src/main/java/ifma/dcomp/lbd/imobiliaria/model/Aluguel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="215" y="500"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ifma.dcomp.lbd.imobiliaria.model.Locacao" project="projeto-de-imobiliaria" 
+    file="/projeto-de-imobiliaria/src/main/java/ifma/dcomp/lbd/imobiliaria/model/Locacao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="383" width="167" x="150" y="-94"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ifma.dcomp.lbd.imobiliaria.model.Locacao" project="projeto-de-imobiliaria" 
+    file="/projeto-de-imobiliaria/src/main/java/ifma/dcomp/lbd/imobiliaria/model/Locacao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="455" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="ifma.dcomp.lbd.imobiliaria.model.TipoImovel" 
+    project="projeto-de-imobiliaria" 
+    file="/projeto-de-imobiliaria/src/main/java/ifma/dcomp/lbd/imobiliaria/model/TipoImovel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="167" width="225" x="357" y="-94"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <association id="16">    
+    <bendpoint x="306" y="665"/>    
+    <bendpoint x="506" y="667"/>    
+    <bendpoint x="509" y="508"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="17" name="subcategorias"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="23" name="tipo"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
